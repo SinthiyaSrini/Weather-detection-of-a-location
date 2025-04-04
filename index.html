@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulated Weather Detection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-container">
+        <h1>Simulated Weather</h1>
+        <label for="location">Select Location:</label>
+        <select id="location">
+            <option value="chennai">Chennai</option>
+            <option value="london">London</option>
+            <option value="newyork">New York</option>
+            </select>
+        <button id="detectBtn">Detect Weather</button>
+        <div id="weather-info" class="hidden">
+            <p>Location: <span id="location-name"></span></p>
+            <p>Temperature: <span id="temperature"></span> °C</p>
+            <p>Condition: <span id="condition"></span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
